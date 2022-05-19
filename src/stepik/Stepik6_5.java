@@ -1,4 +1,4 @@
-package streamAPI;
+package stepik;
 
 import java.util.Comparator;
 import java.util.List;
