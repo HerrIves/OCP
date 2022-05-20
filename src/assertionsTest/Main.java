@@ -1,4 +1,4 @@
-package arrays;
+package assertionsTest;
 
 import org.junit.platform.commons.logging.Logger;
 import org.junit.platform.commons.logging.LoggerFactory;
@@ -19,14 +19,15 @@ public class Main {
             loger.info(()->"logger final message");
         }
 
+        boolean b;
         try {
-            assert i == new Integer(1);
+            assert  b = i == new Integer(1) :"first";
         }catch (AssertionError as){
             loger.info(()->"assertion error");
             loger.info(as::getMessage);
         }
 
-        assert i == new Integer(0);
+        assert i == new Integer(0): "second";
 
         System.out.println(string);
 
