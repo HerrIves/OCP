@@ -7,7 +7,7 @@ public class Main {
     final static Logger loger = LoggerFactory.getLogger(Main.class);
     public static void main(String[] args) {
 
-//        Integer[] array = new Integer[2];
+//        Integer[] array = new Integer[2];eva
         String string = "Hello";
         Object o = string;
         Integer i = new Integer(0);
