@@ -1,10 +1,8 @@
 package just_test;
 
-import just_test.trash.Test1Interface;
-
 import java.util.*;
 
-public class Test implements Test1Interface {
+public class Test {
 
     public static void main(String... args) {
 

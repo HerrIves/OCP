@@ -1,4 +1,6 @@
 package just_test.trash;
 
-class A extends SimpleInterfaceImpl{
+import just_test.SimpleInterfaceImpl;
+
+class A extends SimpleInterfaceImpl {
 }

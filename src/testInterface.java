@@ -1,5 +1,3 @@
-package just_test.trash;
-
 interface Test1Interface {
     static boolean start(){
         System.out.println("start 1");
