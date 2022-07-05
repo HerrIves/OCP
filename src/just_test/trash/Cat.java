@@ -1,4 +1,4 @@
-package just_test;
+package just_test.trash;
 
 public final class Cat<N extends Integer, P extends String> {
 

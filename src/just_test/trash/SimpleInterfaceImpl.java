@@ -1,4 +1,4 @@
-package just_test;
+package just_test.trash;
 
 class SimpleInterfaceImpl implements SimpleInterface{
 

@@ -1,4 +1,4 @@
-package just_test;
+package just_test.trash;
 
 public class Electronic implements Device {
     public void doIt() { }

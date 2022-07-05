@@ -1,4 +1,4 @@
-package just_test;
+package just_test.trash;
 
 interface SimpleInterface{
     void hi();
