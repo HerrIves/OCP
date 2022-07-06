@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Book {
     private String title;
+
     private String isbn;
     private LocalDate datum;
     private String author;
@@ -18,6 +19,7 @@ public class Book {
     }
 
     public String getTitle() { return title; }
+    public String getIsbn() {        return isbn;    }
 
 
     @Override

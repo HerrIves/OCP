@@ -5,6 +5,12 @@ public class Book {
     private String isbn;
     private String author;
 
+    public double getPrice() {
+        return price;
+    }
+
+    private double price;
+
     public Book(String titel, String isbn, String author) {
         this.title = titel;
         this.isbn = isbn;
