@@ -1,6 +1,7 @@
 package just_test.collections_test;
 import java.util.*;
 import java.util.function.BiConsumer;
+import java.util.function.UnaryOperator;
 
 public class mapTest {
     public static int returnInt(){
@@ -9,19 +10,27 @@ public class mapTest {
         integers.get(1);
         integers.entrySet();
 
-        Integer i = 0;
-//                integers.get("1");
-        System.out.println(i);
 
-        BiConsumer<String, Integer>biConsumer = (str, intg)-> System.out.println(str + intg);
+        BiConsumer<String, Integer>biConsumer = (str, intg)-> System.out.print(str +" : "+ intg);
         integers.forEach(biConsumer.andThen(biConsumer));
 
-        return i;
+        System.out.println("\n\nintegers.compute(\"2\", (k,v)->k.length());");
+        integers.compute("2", (k,v)->k.length());
+        integers.forEach((k, v) -> System.out.println(k +" "+ v));
+
+        integers.replaceAll((k, v) -> v=k.equals("2")?10:5);
+        integers.forEach((k, v) -> System.out.println(k +" "+ v));
+
+
+
+
+        return -1;
     }
+
+
 
     public static void main(String[] args) {
+
         System.out.println(returnInt());
     }
-
-
 }
