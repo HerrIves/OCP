@@ -1,4 +1,4 @@
-package test.streamAPI;
+package just_test.streamAPI;
 
 import java.util.function.IntFunction;
 import java.util.function.ToIntFunction;
