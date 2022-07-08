@@ -1,4 +1,4 @@
-package oca.aufgabe07a;
+package comcave.oca.aufgabe07a;
 
 public class Main {
     public static void main(String[] args) {

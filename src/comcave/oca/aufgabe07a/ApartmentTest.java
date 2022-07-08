@@ -1,4 +1,4 @@
-package oca.aufgabe07a;
+package comcave.oca.aufgabe07a;
 
 import org.junit.jupiter.api.Test;
 
