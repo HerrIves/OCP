@@ -1,4 +1,4 @@
-package lambdatrader;
+package sudak.dload.lambdatrader;
 
 class Transaction {
 

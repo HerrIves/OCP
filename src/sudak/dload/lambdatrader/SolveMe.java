@@ -1,4 +1,4 @@
-package lambdatrader;
+package sudak.dload.lambdatrader;
 
 import java.util.*;
 import static java.util.Comparator.*;
