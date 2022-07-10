@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class K8_08_FilePath {
+public class K8_08FilePath {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("src/comcave/./ocp/"); //ohne slash before - bedouted current directory
         System.out.println(path.toAbsolutePath());
