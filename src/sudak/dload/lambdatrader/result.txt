@@ -1,0 +1,38 @@
+All transactions in 2011 sorted by value
+------------------------------------------------
+Brian in Cambridge, 2011, 300
+Raoul in Cambridge, 2011, 400
+
+Unique cities where the traders work
+------------------------------------------------
+Cambridge
+Milan
+
+All traders from Cambridge sorted by name
+------------------------------------------------
+Alan in Cambridge
+Brian in Cambridge
+Raoul in Cambridge
+
+Return a string of all traders' names (sorted)
+------------------------------------------------
+Alan Brian Mario Raoul
+
+Are any traders based in Milan?
+------------------------------------------------
+true
+
+Values of all transactions from the Cambridge traders
+------------------------------------------------
+710
+700
+
+Max value of all the transactions
+------------------------------------------------
+1000
+
+Min value of all the transactions
+------------------------------------------------
+Brian in Cambridge, 2011, 300
+
+Process finished with exit code 0
