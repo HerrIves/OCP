@@ -3,7 +3,7 @@ package just_test.properties;
 import java.io.*;
 import java.util.Properties;
 
-public class PropertiesTest {
+public class PropTest01 {
     public static void main(String[] args) throws IOException {
 
         Properties h2Properties = new Properties();
